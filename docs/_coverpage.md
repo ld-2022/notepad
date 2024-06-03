@@ -6,8 +6,8 @@
 
 > 年纪大了喜欢写点东西。
 
-- 工具使用心得
+- 一些工具使用心得
 - 有趣的疑难杂症
 
 [GitHub](https://github.com/ld-2022/notepad)
-[Get Started](codeSigning)
+[Get Started](README.md)
