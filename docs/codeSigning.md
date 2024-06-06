@@ -8,7 +8,7 @@ signtool sign /tr http://timestamp.comodoca.com /td sha256 /fd sha256 /a /v <fil
 ```
 - 自动签名
 
-    - 自动输入密码工具【autoit】https://skynet-beijing.oss-cn-beijing.aliyuncs.com/resources/autoit-v3-setup.zip
+    - 自动输入密码工具 [下载Autoit](https://www.autoitscript.com/site/autoit/downloads/)
         - 脚本AutoPin.au3
         ```
         $Caption = "Token Logon"
@@ -22,8 +22,6 @@ signtool sign /tr http://timestamp.comodoca.com /td sha256 /fd sha256 /a /v <fil
             WinWaitClose($Caption)
         Wend
         ```
-    - 自动扫描目录并签名程序【code.signing】https://skynet-beijing.oss-cn-beijing.aliyuncs.com/resources/code.signing.exe
-        - 打开后填写要签名的目录即可
 ### MacOS 签名
 
 - 代码签名（APP、二进制文件）
