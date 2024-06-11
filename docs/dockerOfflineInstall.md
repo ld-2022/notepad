@@ -8,6 +8,7 @@
 - [docker-ce-cli](https://download.docker.com/linux/ubuntu/dists/focal/pool/stable/amd64/docker-ce-cli_26.1.4-1~ubuntu.20.04~focal_amd64.deb)
 - [docker-ce](https://download.docker.com/linux/ubuntu/dists/focal/pool/stable/amd64/docker-ce_26.1.4-1~ubuntu.20.04~focal_amd64.deb)
 
+
 #### 二、安装
 ```shell
 sudo dpkg -i containerd.io_1.6.33-1_amd64.deb
@@ -26,4 +27,13 @@ sudo docker --version
 #### 三、设置开机启动
 ```shell
 sudo systemctl enable docker
+```
+
+#### 四、下载 Docker-compose（可选）
+- [docker-compose](https://github.com/docker/compose/releases)
+
+#### 五、安装 Docker-compose
+```shell
+mv docker-compose-linux-x86_64 /usr/local/bin/docker-compose
+chmod +x /usr/local/bin/docker-compose
 ```
