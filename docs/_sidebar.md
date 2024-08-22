@@ -1,5 +1,7 @@
 - FreeBSD 随手笔记
-  - [SSH开启远程登录](freebsd/ssh_remote_login.md)
+  - [SSH 开启远程登录](freebsd/ssh_remote_login.md)
+- Linux 随手笔记
+  - [Linux SSH常用操作](linux/ssh.md)
 - 教程类
   - [Ubuntu限速设置](ubuntuSpeedLimit.md)
   - [Docker离线安装](dockerOfflineInstall.md)
