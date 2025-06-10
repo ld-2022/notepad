@@ -5,9 +5,9 @@
 - 教程类
   - [Ubuntu限速设置](ubuntuSpeedLimit.md)
   - [Docker离线安装](dockerOfflineInstall.md)
+  - [Docker代理设置](dockerProxySetup.md)
   - [Ubuntu设置静态IP](ubuntu_static_ip.md)
   - [Ubuntu 逻辑分区LVM扩容](ubuntu_lvm_expansion.md)
   - [Ubuntu sudo免密码](ubuntu_sudo_noPass.md)
 - 工具类
-
   - [代码签名](codeSigning.md)
